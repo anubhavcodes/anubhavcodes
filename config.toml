@@ -57,7 +57,16 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/anubhavcodes/"
-    
+[[params.social]]
+    name = "dev.to"
+    icon = "fab fa-dev"
+    weight = 5
+    url = "https://dev.to/anubhavcodes"
+[[params.social]]
+    name = "StackOverflow"
+    icon = "fab fa-stack-overflow"
+    weight = 6
+    url = "https://stackoverflow.com/users/12928701/anubhavcodes" 
 
 
 

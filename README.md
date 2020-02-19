@@ -1,4 +1,6 @@
-# anubhavcodes
+# My Personal Blog.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/692e4513-ae76-420b-9315-99ade1cd53be/deploy-status)](https://app.netlify.com/sites/anubhavcodes/deploys)
 
 Source code for my personal landing page. I used @gohugoio and @netlify to create a very simple landing page with my own domain. 
 
