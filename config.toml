@@ -67,3 +67,13 @@ pygmentscodefencesguesssyntax = true
     icon = "fab fa-stack-overflow"
     weight = 6
     url = "https://stackoverflow.com/users/12928701/anubhavcodes" 
+[[params.social]]
+    name = "Keybase"
+    icon = "fab fa-keybase"
+    weight = 7
+    url = "https://keybase.io/anubhavyadav"
+[[params.social]]
+    name = "email"
+    icon = "fa fa-envelope"
+    weight = 8
+    url = "mailto:contact@anubhav.codes"
