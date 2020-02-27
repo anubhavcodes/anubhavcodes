@@ -46,7 +46,7 @@ pygmentscodefencesguesssyntax = true
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/anubhavcodes/"
+    url = "https://github.com/anubhavcodes?tab=overview&from=2018-12-01&to=2018-12-31"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
