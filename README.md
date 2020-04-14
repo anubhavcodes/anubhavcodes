@@ -17,5 +17,5 @@ Right now I am happy with my simple landing page running over hugo using netlify
 
 ```bash
 docker build -t anubhavcodes:0.1 .
-docker run --rm --publish 1313:1313 anubhavcodes:0.1
+docker run --rm --publish 1313:1313 -v ${PWD}:/srv anubhavcodes:0.1
 ```
