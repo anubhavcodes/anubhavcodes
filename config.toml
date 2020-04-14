@@ -77,3 +77,8 @@ pygmentscodefencesguesssyntax = true
     icon = "fa fa-envelope"
     weight = 8
     url = "mailto:contact@anubhav.codes"
+[[params.social]]
+    name = "CV"
+    icon = "fa fa-address-card"
+    weight = 9
+    url = "https://bit.ly/CVcodes"
