@@ -12,3 +12,10 @@ Goals for the future:
 - [x] Integrate an analytics site which also respects privacy of my readers (goatcounter??)
 
 Right now I am happy with my simple landing page running over hugo using netlify, but I might want to replace hugo with Vue since I a not comfortable with go templating yet and I am actively learning Vue for work and personal projects.
+
+### Development
+
+```bash
+docker build -t anubhavcodes:0.1 .
+docker run --rm --publish 1313:1313 anubhavcodes:0.1
+```
