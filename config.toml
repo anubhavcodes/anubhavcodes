@@ -2,7 +2,6 @@ title = "anubhavcodes"
 baseURL = "https://anubhavcodes.github.io"
 languageCode = "en-us"
 theme = "hugo-coder"
-publishDir = ".."
 
 languagecode = "en"
 defaultcontentlanguage = "en"
