@@ -17,7 +17,7 @@ pygmentscodefencesguesssyntax = true
     author = "Anubhav Yadav"
     description = "A small personal space on the web for my own thoughts and projects."
     keywords = "blog,developer,personal,products,focus"
-    info = "Fullstack developer and DevOps engineer. High focus on products."
+    info = "Fullstack Developer and DevOps Engineer. High focus on products."
     avatarurl = "https://en.gravatar.com/userimage/34701884/6c9712deb1659cf903d16af35b8fc636.jpg?size=200"
     favicon_32 = "images/favicon-32x32.png"
     favicon_16 = "images/favicon-16x16.png"
