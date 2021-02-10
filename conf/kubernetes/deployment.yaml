@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: anubhavcodes-site
+  labels:
+    app: anubhavcodes-site
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: anubhavcodes-site
+  template:
+    metadata:
+      labels:
+        app: anubhavcodes-site
+    spec:
+      containers:
+        - name: anubhavcodes-site
+          image: anubhavcodes/anubhavcodes:latest
+          ports:
+            - containerPort: 80

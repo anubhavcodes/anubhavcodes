@@ -1,13 +1,14 @@
 # My Personal Blog.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/692e4513-ae76-420b-9315-99ade1cd53be/deploy-status)](https://app.netlify.com/sites/anubhavcodes/deploys)
-
-Source code for my personal landing page. I used @gohugoio and @netlify to create a very simple landing page with my own domain. 
+Source code for my personal landing page. I used @gohugoio and ~~@netlify~~ GitHub pages to create a very simple 
+landing page with my own domain. 
 
 Goals for the future: 
 
-- [ ]  Start a blog at blog.anubhav.codes or anubhav.codes/blog
+- [ ] Convert this README.md to show up on my profile.
+- [ ] Start a blog at blog.anubhav.codes or anubhav.codes/blog
 - [ ] Show a list of personal projects on my blog.
+- [ ] Move away from gohugo and start something of your own.
 - [x] Pull some metrics from grafana (personal instance) and show it on my website. 
 - [x] Integrate an analytics site which also respects privacy of my readers (goatcounter??)
 
@@ -16,6 +17,7 @@ Right now I am happy with my simple landing page running over hugo using netlify
 ### Development
 
 ```bash
-docker build -t anubhavcodes:0.1 .
-docker run --rm --publish 1313:1313 -v ${PWD}:/srv anubhavcodes:0.1
+make preview
 ```
+
+go to localhost:8080 to test out the site.
